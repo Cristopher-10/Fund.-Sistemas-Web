@@ -1,4 +1,4 @@
-#oredenamiento de números ingresados
+#oredenamiento de números ingresados por el usuario
 awarded = []
 for i in range(6):
     awarded.append(int(input("Introduce un número ganador: ")))
