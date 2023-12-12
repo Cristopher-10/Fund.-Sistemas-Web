@@ -1,0 +1,222 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Clase principal */
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar contenido horizontalmente */
+}
+
+/* Sección del logo */
+.img img {
+    object-fit: cover;
+    height: 100%;
+    padding-left: 80px;
+}
+
+/* Sección 1 - Header */
+.section-1 {
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(90deg, #ce37ce, #ff5500);
+    padding-top: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+/* Header */
+.header {
+    background-color: #2d2f32;
+    width: 100%;
+    height: 2.5em;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+/* Menú */
+.menu {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+}
+
+.menu a {
+    /* Estilos del enlace del menú */
+    text-decoration: none;
+    color: white;
+    padding: 0 1em;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    height: 100%;
+    line-height: 2.8;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+header .menu a {
+    height: 100%;
+    transition: all 0.3s ease 0s;
+}
+
+header .menu a:hover {
+    background-color: #ff5500;
+}
+
+/* Clase div */
+.img {
+    background-color: #2d2f32;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+}
+
+/* Contenedor, bienvenidos y párrafo */
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    height: calc(100vh);
+}
+
+.columna {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.contenidoMultimedia {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.columna_contenido {
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.columna_contenido h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: inline-block;
+    justify-content: center;
+    color: #ff0000;
+}
+
+/* Botón "VER MÁS" */
+.ver-mas-btn {
+    background-color: #ff5500;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h1 {
+    margin-top: 25px;
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+}
+
+.hr_seccion2 {
+    width: 4%;
+    margin-left: 48%;
+    margin-bottom: 15px;
+    background-color: #ff5500;
+    height: 4px;
+}
+
+.p1 {
+    margin-left: 50px;
+    text-align: center;
+}
+
+/* Sección del Footer */
+.contenedor_seccion3 {
+    background: linear-gradient(90deg, #ce37ce, #ff5500);
+    width: 100%;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img_seccion3 {
+    background-color: #2d2f32;
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.seccion3_elementos {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2f32;
+    width: 100%;
+    height: 90%;
+    margin-top: 4px;
+}
+
+.s3-textos {
+    padding-top: 5px;
+    color: white;
+    font-size: 8.5px;
+    background-color: #2d2f32;
+    width: 25%;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.s3-textos a {
+    color: white;
+}
+
+/* Footer */
+.footer {
+    background-color: #2d2f32;
+    padding-left: 30px;
+    width: 100%;
+    color: white;
+    font-size: 10px;
+    line-height: 3;
+}
+
+.footer .footer_texto {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    padding-left: 80px;
+    font-weight: bold;
+}
+
+.img_footer {
+    display: flex;
+    padding-left: 30px;
+    padding-top: 5px;
+    height: 70px;
+}
